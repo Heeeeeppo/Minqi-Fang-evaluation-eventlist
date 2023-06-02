@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 60rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#addBtn {
+    background-color: #008cba;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 1rem;
+}
+
+#event__container {
+    border: 4px solid #D7C0AE;
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.rows {
+    width: 100%;
+    background-color: #D7C0AE;
+}
+
+tr, td {
+    margin: 20px;
+}
+
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    width: 1.5rem;
+}
+
+svg[data-testid="EditIcon"], svg[xmlns="http://www.w3.org/2000/svg"] {
+    fill: white;
+    background-color: #008cba;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+svg[data-testid="DeleteIcon"] {
+    fill: white;
+    background-color: #c94c4c;
+    margin: 5px;
+    border-radius: 5px;
+}
