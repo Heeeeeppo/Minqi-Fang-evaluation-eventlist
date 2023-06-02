@@ -264,18 +264,19 @@ class EventController {
             })
         
         // const cancelIcon = document.getElementById("cancelIcon");
-        // cancelIcon.addEventListener("click", () => {
-        //     const eventName = document.getElementById("event__event-name").value;
-        //     const startDate = document.getElementById("event__start-date").value;
-        //     const endDate = document.getElementById("event__end-date").value;
-        //     const newEvent = {
-        //         eventName: eventName,
-        //         startDate: startDate,
-        //         endDate: endDate,
-        //     }
+        // console.log(cancelIcon);
+        // // cancelIcon.addEventListener("click", () => {
+        // //     const eventName = document.getElementById("event__event-name").value;
+        // //     const startDate = document.getElementById("event__start-date").value;
+        // //     const endDate = document.getElementById("event__end-date").value;
+        // //     const newEvent = {
+        // //         eventName: eventName,
+        // //         startDate: startDate,
+        // //         endDate: endDate,
+        // //     }
 
-        //     this.view.endEdit(newEvent);
-        // })
+        // //     this.view.endEdit(newEvent);
+        // // })
         
         })
     }
@@ -341,6 +342,7 @@ class EventController {
                 })
                 
                 // const cancelIcon = document.getElementById("cancelIcon");
+                // console.log(cancelIcon)
                 // cancelIcon.addEventListener("click", () => {
                 //     this.view.endEdit();
                 // })
